@@ -57,7 +57,6 @@ public class Tablero {
                 tableroJuego[i][j] = 126; //Tablero lleno con ~ a signo de niebla de guerra
                 tableroBarcos[i][j] = 126; //Tablero lleno con ~ a signo de niebla de guerra
             }
-            System.out.println("");
         }
     }
     
