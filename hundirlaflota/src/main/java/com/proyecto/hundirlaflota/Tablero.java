@@ -257,7 +257,7 @@ public class Tablero {
             dFila = sc.nextInt() - 1; //Le restamos 1 ya que va desde 0 a 7 realmente
             System.out.print("Columna: ");
             dCol = sc.nextInt() - 1; //Le restamos 1 ya que va desde 0 a 7 realmente
-            if(dFila < tablero.length && dCol < tablero[dFila].length){ //Si el punto esta dentro del tablero se comprueba si es agua o no
+            if(dFila < tablero.length && dCol < tablero[dFila].length && dFila > 0 && dCol > 0){ //Si el punto esta dentro del tablero se comprueba si es agua o no
                 if(tableroBarcos[dFila][dCol] == '~'){ //En caso de ser agua se pone 0
                     tableroJuego[dFila][dCol] = '0'; //si fallamos pintamos 0
                 }else{ //Si no es agua
