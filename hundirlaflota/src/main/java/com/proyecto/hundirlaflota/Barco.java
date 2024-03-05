@@ -48,6 +48,10 @@ public abstract class Barco {
     }
     
     //metodos
+    /**
+     * Si un barco hundido
+     * @return false = no hundido; true = hundido
+     */
     public boolean hundido(){
         //Iniciamos las variables
         boolean hundido=false;
