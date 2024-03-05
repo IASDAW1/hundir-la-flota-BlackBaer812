@@ -19,6 +19,9 @@ public abstract class Barco {
     protected static char cuenta = '1'; //cuenta completamente automática
     
     //Constructores
+    /**
+     * Constructor vacio
+     */
     public Barco(){ //constructor vacio (No lo usaremos)
         this.longitud = 0;
         this.nombre = "";
@@ -29,6 +32,11 @@ public abstract class Barco {
         }
     }
     
+    /**
+     * Constructor de la clase barco
+     * @param lon Indica longitud
+     * @param nBarco Indica el nombre del barco
+     */
     public Barco(int lon, String nBarco){ //Constructor básico
         this.longitud = lon;
         this.nombre = nBarco;
