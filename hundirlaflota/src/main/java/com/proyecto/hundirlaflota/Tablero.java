@@ -10,8 +10,10 @@ import java.util.Scanner;
 
 
 /**
- *
+ *Guarda los datos sobre la partida, como posiciones de barcos, de tiras y de daños
+ * 
  * @author Marcos
+ * @version 1.0
  */
 public class Tablero {
     //Atributos
